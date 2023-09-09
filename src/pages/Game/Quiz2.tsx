@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Quiz2 = () => {
   return (
     <div>
@@ -27,6 +27,9 @@ const Quiz2 = () => {
           {/* </Content> */}
         </CardHold>
         <ButtonHold>
+          <Link to="/game">
+            <Button2>Prev</Button2>
+          </Link>
           <Link to="/game/next2">
             <Button>Next</Button>
           </Link>
@@ -44,13 +47,19 @@ const Button = styled.button`
   width: 100px;
   height: 50px;
 `;
+const Button2 = styled.button`
+  color: #0d71fa;
+  background-color: white;
+  width: 100px;
+  height: 50px;
+`;
 
 const ButtonHold = styled.div`
   width: 90%;
   height: 100px;
 
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 `;
 

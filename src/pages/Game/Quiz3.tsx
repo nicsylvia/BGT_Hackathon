@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 const Quiz3 = () => {
   return (
     <div>
@@ -7,27 +7,32 @@ const Quiz3 = () => {
         <CardHold>
           {/* <Content> */}
           <HeaderText>Question 3</HeaderText>
-          <Question>What does CSS stand for?</Question>
+          <Question>What serves as the structure of the web page?</Question>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>JAVASCRIPT</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>HMTL/CSS</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>UI/UX</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>PHP</Text>
           </InputHold>
           {/* </Content> */}
         </CardHold>
         <ButtonHold>
-          <Button disabled>Next</Button>
+          <Link to="/game/next1">
+            <Button2>Prev</Button2>
+          </Link>
+          <Link to="/leaderboard">
+            <Button>Submit</Button>
+          </Link>
         </ButtonHold>
       </Container>
     </div>
@@ -35,10 +40,15 @@ const Quiz3 = () => {
 };
 
 export default Quiz3;
-
 const Button = styled.button`
   background-color: #0d71fa;
   color: white;
+  width: 100px;
+  height: 50px;
+`;
+const Button2 = styled.button`
+  color: #0d71fa;
+  background-color: white;
   width: 100px;
   height: 50px;
 `;
@@ -48,7 +58,7 @@ const ButtonHold = styled.div`
   height: 100px;
 
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 `;
 
