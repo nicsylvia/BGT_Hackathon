@@ -37,10 +37,7 @@ export const desktopRouter = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
-      {
-        path: "/leaderboard",
-        element: <Leaderboard />,
-      },
+
       {
         path: "/game",
         element: <Game />,
@@ -59,10 +56,14 @@ export const desktopRouter = createBrowserRouter([
           },
         ],
       },
-      {
-        path: "/upload",
-        element: <UploadPage />,
-      },
     ],
+  },
+  {
+    path: "/upload",
+    element: <UploadPage />,
+  },
+  {
+    path: "/leaderboard",
+    element: <Leaderboard />,
   },
 ]);
