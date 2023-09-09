@@ -72,12 +72,12 @@ const SignUp = () => {
         <Left>
           <img
             // src={rstar}
-            alt=''
+            alt=""
             style={{ position: "absolute", left: "75%", top: "20%" }}
           />
           <img
             // src={lstar}
-            alt=''
+            alt=""
             style={{
               position: "absolute",
               top: "20%",
@@ -85,7 +85,7 @@ const SignUp = () => {
               height: "360px",
             }}
           />
-          <NavLink to='/' style={{ textDecoration: "none" }}>
+          <NavLink to="/" style={{ textDecoration: "none" }}>
             <h4>SHECODES</h4>
           </NavLink>
           <H1>
@@ -114,7 +114,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='Name' />
+              <input placeholder="Name" />
               {/* <Erro>{errors?.name && errors?.name?.message}</Erro> */}
             </Inputs>
             <Inputs>
@@ -125,7 +125,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='UserName' />
+              <input placeholder="UserName" />
               {/* <Erro>{errors?.username && errors?.username?.message}</Erro> */}
             </Inputs>
             <Inputs>
@@ -136,7 +136,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='E-mail address' />
+              <input placeholder="E-mail address" />
               {/* <Erro>{errors?.email && errors?.email?.message}</Erro> */}
             </Inputs>
             <Inputs>
@@ -147,7 +147,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='Phone-no' />
+              <input placeholder="Phone-no" />
               {/* <Erro>{errors?.phoneNumber && errors?.phoneNumber?.message}</Erro> */}
             </Inputs>
             <Inputs>
@@ -158,7 +158,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='Password' />
+              <input placeholder="Password" />
               {/* <Erro>{errors?.password && errors?.password?.message}</Erro> */}
             </Inputs>
             <Inputs>
@@ -169,7 +169,7 @@ const SignUp = () => {
                   color: "silver",
                 }}
               />
-              <input placeholder='Confirm password' />
+              <input placeholder="Confirm password" />
               <Erro>
                 {/* {errors?.confirmPassword && errors?.confirmPassword?.message}s */}
               </Erro>
@@ -177,11 +177,13 @@ const SignUp = () => {
           </Box>
           <Div>
             Already have an account{" "}
-            <Span to='/login' style={{ color: "#FCA5A5" }}>
+            <Span to="/login" style={{ color: "#FCA5A5" }}>
               Login here
             </Span>
           </Div>
-          <Button type='submit'>Create Account</Button>
+          <Link to="/courses">
+            <Button type="submit">Create Account</Button>
+          </Link>
         </Right>
       </Container>
     </div>
