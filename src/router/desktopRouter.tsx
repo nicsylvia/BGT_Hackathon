@@ -37,6 +37,7 @@ export const desktopRouter = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
+
       {
         path: "/leaderboard",
         element: <Leaderboard />,
