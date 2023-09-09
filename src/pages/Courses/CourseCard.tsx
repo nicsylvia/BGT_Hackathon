@@ -1,21 +1,19 @@
 import styled from "styled-components";
-import img from "./Assets/man1.png";
-import img2 from "./Assets/green.png";
-import img3 from "./Assets/product.png";
-import img4 from "./Assets/business.png";
-import img5 from "./Assets/lap.png";
-import img6 from "./Assets/cloud.png";
-import img7 from "./Assets/market.png";
-import img8 from "./Assets/blockchain.png";
+import img from "../../assets/man1.png";
+import img2 from "../../assets//green.png";
+import img3 from "../../assets/product.png";
+import img4 from "../../assets/business.png";
+import img5 from "../../assets/lap.png";
+import img6 from "../../assets/cloud.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const CourseCard = () => {
   return (
     <Container>
       <Text>
-        Newbie? Kickstart
+        Get Reliable Sources here
         <br />
-        your career in tech
+        to get you started
       </Text>
       <P>Discover the right Virtual Experience Program for you</P>
       <Wrapper>
@@ -226,26 +224,6 @@ const Down6 = styled.div`
   width: 100%;
   height: 50%;
   background-color: #0e8f8f;
-  display: flex;
-  padding-top: 40px;
-  padding-left: 40px;
-  color: white;
-  flex-direction: column;
-`;
-const Down7 = styled.div`
-  width: 100%;
-  height: 50%;
-  background-color: #10a662;
-  display: flex;
-  padding-top: 40px;
-  padding-left: 40px;
-  color: white;
-  flex-direction: column;
-`;
-const Down8 = styled.div`
-  width: 100%;
-  height: 50%;
-  background-color: #000269;
   display: flex;
   padding-top: 40px;
   padding-left: 40px;
