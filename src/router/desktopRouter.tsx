@@ -3,6 +3,11 @@ import DesktopLayout from "../components/Layout/DesktopLayoutLandingPage/Desktop
 import LandingPage from "../pages/LandingPage/LandingPage";
 import MyCourse from "../pages/ViewCourses/MyCourse";
 import Courses from "../pages/Courses/Courses";
+import SignUp from "../pages/AuthPage/SignUp";
+import Login from "../pages/AuthPage/Login";
+import Leaderboard from "../pages/LeaderBoard/Leaderboard";
+import Game from "../pages/Game/Game";
+import UploadPage from "../pages/AdminUpload/UploadPage";
 
 export const desktopRouter = createBrowserRouter([
   {
@@ -22,12 +27,24 @@ export const desktopRouter = createBrowserRouter([
         element: <Courses />,
       },
       {
-        path: "/auth",
-        element: <MyCourse />,
+        path: "/sign-up",
+        element: <SignUp />,
       },
       {
-        path: "/view-courses",
-        element: <MyCourse />,
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/leaderboard",
+        element: <Leaderboard />,
+      },
+      {
+        path: "/game",
+        element: <Game />,
+      },
+      {
+        path: "/upload",
+        element: <UploadPage />,
       },
     ],
   },
