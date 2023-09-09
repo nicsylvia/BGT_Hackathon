@@ -31,45 +31,6 @@ export const desktopRouter = createBrowserRouter([
         path: "/courses",
         element: <Courses />,
       },
-      {
-        path: "/sign-up",
-        element: <SignUp />,
-      },
-      {
-        path: "/login",
-        element: <Login />,
-      },
-
-      {
-        path: "/tutor-sign-up",
-        element: <TutorSignUp />,
-      },
-      {
-        path: "/tutor-login",
-        element: <TutorSignIn />,
-      },
-      {
-        path: "/leaderboard",
-        element: <Leaderboard />,
-      },
-      {
-        path: "/game",
-        element: <Game />,
-        children: [
-          {
-            index: true,
-            element: <Quiz />,
-          },
-          {
-            path: "/game/next1",
-            element: <Quiz2 />,
-          },
-          {
-            path: "/game/next2",
-            element: <Quiz3 />,
-          },
-        ],
-      },
     ],
   },
   {
@@ -79,5 +40,44 @@ export const desktopRouter = createBrowserRouter([
   {
     path: "/leaderboard",
     element: <Leaderboard />,
+  },
+  {
+    path: "/sign-up",
+    element: <SignUp />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+
+  {
+    path: "/tutor-sign-up",
+    element: <TutorSignUp />,
+  },
+  {
+    path: "/tutor-login",
+    element: <TutorSignIn />,
+  },
+  {
+    path: "/leaderboard",
+    element: <Leaderboard />,
+  },
+  {
+    path: "/game",
+    element: <Game />,
+    children: [
+      {
+        index: true,
+        element: <Quiz />,
+      },
+      {
+        path: "/game/next1",
+        element: <Quiz2 />,
+      },
+      {
+        path: "/game/next2",
+        element: <Quiz3 />,
+      },
+    ],
   },
 ]);
