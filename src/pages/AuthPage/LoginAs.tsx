@@ -1,4 +1,4 @@
-import { AiFillPlayCircle, AiOutlineGoogle } from "react-icons/ai";
+import { AiFillPlayCircle } from "react-icons/ai";
 import { styled } from "styled-components";
 import { Link, NavLink } from "react-router-dom";
 import img from "../../assets/logo1.png";
@@ -29,13 +29,13 @@ const SignInAs = () => {
 
         <NavLink to="/newsignin">
           <Button bg="#f15a22" border="0" color="white">
-            login as user
+            Login as Learner
           </Button>
         </NavLink>
 
         <Link style={{ textDecoration: "none" }} to={"/StaffLogin"}>
           <Button bg="transparent" border="1px solid #f15a22" color="#f15a22">
-            login as staff
+            Login as Tutor
           </Button>
         </Link>
       </Left>
