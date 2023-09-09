@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 const Quiz = () => {
   return (
     <div>
@@ -27,7 +27,9 @@ const Quiz = () => {
           {/* </Content> */}
         </CardHold>
         <ButtonHold>
-          <Button>Next</Button>
+          <Link to="/game/next1">
+            <Button>Next</Button>
+          </Link>
         </ButtonHold>
       </Container>
     </div>
