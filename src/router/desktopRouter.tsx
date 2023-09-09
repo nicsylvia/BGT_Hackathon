@@ -13,6 +13,9 @@ import Quiz2 from "../pages/Game/Quiz2";
 import Quiz3 from "../pages/Game/Quiz3";
 import TutorSignUp from "../pages/AuthPage/TutorSignUp";
 import TutorSignIn from "../pages/AuthPage/TutorSignIn";
+import SignInAs from "../pages/AuthPage/SignUpAs";
+import LoginAS from "../pages/AuthPage/LoginAs";
+import DetailPage from "../pages/ViewCourses/MyCourse";
 
 export const desktopRouter = createBrowserRouter([
   {
@@ -25,7 +28,7 @@ export const desktopRouter = createBrowserRouter([
       },
       {
         path: "/view-courses",
-        element: <MyCourse />,
+        element: <DetailPage />,
       },
       {
         path: "/courses",
@@ -44,6 +47,14 @@ export const desktopRouter = createBrowserRouter([
   {
     path: "/sign-up",
     element: <SignUp />,
+  },
+  {
+    path: "/signupas",
+    element: <SignInAs />,
+  },
+  {
+    path: "/signinas",
+    element: <LoginAS />,
   },
   {
     path: "/login",

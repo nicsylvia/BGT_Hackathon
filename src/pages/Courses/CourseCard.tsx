@@ -6,127 +6,131 @@ import img4 from "../../assets/business.png";
 import img5 from "../../assets/lap.png";
 import img6 from "../../assets/cloud.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const CourseCard = () => {
   return (
-    <Container>
-      <Text>
-        Get Reliable Sources here
-        <br />
-        to get you started
-      </Text>
-      <P>Discover the right Virtual Experience Program for you</P>
-      <Wrapper>
-        <Box>
-          <Up>
-            <Img src={img} />
-          </Up>
-          <Down>
-            <Data>
-              I am interested in
-              <br />
-              <span>Design</span> and <span>UI/UX</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down>
-        </Box>
-        <Box>
-          <Up>
-            <Img src={img2} />
-          </Up>
-          <Down2>
-            <Data>
-              I am interested in
-              <br />
-              <span>Design</span> and <span>Creatives</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down2>
-        </Box>
-        <Box>
-          <Up>
-            <Img src={img3} />
-          </Up>
-          <Down3>
-            <Data>
-              I am interested in
-              <br />
-              <span>Marketing</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down3>
-        </Box>
-        <Box2>
-          <Up>
-            <Img src={img4} />
-          </Up>
-          <Down4>
-            <Data>
-              I am interested in
-              <br />
-              <span>Development</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down4>
-        </Box2>
-        <Box2>
-          <Up>
-            <Img src={img5} />
-          </Up>
-          <Down5>
-            <Data>
-              I am interested in
-              <br />
-              <span>Frontend Development</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down5>
-        </Box2>
-        <Box2>
-          <Up>
-            <Img src={img6} />
-          </Up>
-          <Down6>
-            <Data>
-              I am interested in
-              <br />
-              <span>Backend Development</span>
-            </Data>
-            <View>
-              View Courses
-              <Icon>
-                <AiOutlineArrowRight />
-              </Icon>
-            </View>
-          </Down6>
-        </Box2>
-      </Wrapper>
-    </Container>
+    <Link style={{ textDecoration: "none" }} to="/view-courses">
+      <Container>
+        <Text>
+          Get Reliable Sources here
+          <br />
+          to get you started
+        </Text>
+        <P>Discover the right Virtual Experience Program for you</P>
+        <Wrapper>
+          <Box>
+            <Up>
+              <Img src={img} />
+            </Up>
+            <Down>
+              <Data>
+                I am interested in
+                <br />
+                <span>Design</span> and <span>UI/UX</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down>
+          </Box>
+
+          <Box>
+            <Up>
+              <Img src={img2} />
+            </Up>
+            <Down2>
+              <Data>
+                I am interested in
+                <br />
+                <span>Design</span> and <span>Creatives</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down2>
+          </Box>
+          <Box>
+            <Up>
+              <Img src={img3} />
+            </Up>
+            <Down3>
+              <Data>
+                I am interested in
+                <br />
+                <span>Marketing</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down3>
+          </Box>
+          <Box2>
+            <Up>
+              <Img src={img4} />
+            </Up>
+            <Down4>
+              <Data>
+                I am interested in
+                <br />
+                <span>Development</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down4>
+          </Box2>
+          <Box2>
+            <Up>
+              <Img src={img5} />
+            </Up>
+            <Down5>
+              <Data>
+                I am interested in
+                <br />
+                <span>Frontend Development</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down5>
+          </Box2>
+          <Box2>
+            <Up>
+              <Img src={img6} />
+            </Up>
+            <Down6>
+              <Data>
+                I am interested in
+                <br />
+                <span>Backend Development</span>
+              </Data>
+              <View>
+                View Courses
+                <Icon>
+                  <AiOutlineArrowRight />
+                </Icon>
+              </View>
+            </Down6>
+          </Box2>
+        </Wrapper>
+      </Container>
+    </Link>
   );
 };
 
