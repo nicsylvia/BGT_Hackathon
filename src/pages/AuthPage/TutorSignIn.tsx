@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import football from "../../assets/remove2.png";
-import { BsPerson } from "react-icons/bs";
+// import football from "../../assets/remove2.png";
+// import { BsPerson } from "react-icons/bs";
 import { IoMailOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
 import { TbSquareKey } from "react-icons/tb";
@@ -15,57 +15,6 @@ import { Link } from "react-router-dom";
 // import { createUser } from "../API/Endpoint";
 
 const TutorSignIn = () => {
-  //   const navigate = useNavigate();
-
-  //   const userSchema = yup
-  //     .object({
-  //       name: yup.string().required("please enter a name"),
-  //       email: yup.string().required("please enter an email"),
-  //       username: yup.string().required("please enter a username"),
-  //       phoneNumber: yup.number().required("please your phone number"),
-  //       password: yup.string().required("please enter a password"),
-  //       confirmPassword: yup
-  //         .string()
-  //         .oneOf([yup.ref("password")], "passwords must match")
-  //         .required("please confirm your password"),
-  //     })
-  //     .required();
-  //   type formData = yup.InferType<typeof userSchema>;
-
-  // const {
-  //   handleSubmit,
-  //   formState: { errors },
-  //   reset,
-  //   register,
-  // } = useForm<formData>({
-  //   resolver: yupResolver(userSchema),
-  // });
-
-  // const posting = useMutation({
-  //   mutationKey: ["createduser"],
-  //   mutationFn: createUser,
-
-  //   onSuccess: (myData) => {
-  //     console.log("user", myData);
-  //     //   dispatch(login(myData.data));
-  //     Swal.fire({
-  //       title: "User registered sucessfully",
-  //       html: "redirecting to login",
-  //       timer: 1000,
-  //       timerProgressBar: true,
-
-  //       willClose: () => {
-  //         navigate("/login");
-  //       },
-  //     });
-  //   },
-  // });
-
-  // const Submit = handleSubmit(async (data: any) => {
-  //   // console.log(data);
-
-  //   posting.mutate(data);
-  // });
   return (
     <div>
       <Container>
@@ -95,7 +44,7 @@ const TutorSignIn = () => {
             Challenge yourself with reading goals, track your progress, and earn
             badges as you conquer your literary quests.😎
           </p>
-          <Img src={football} alt='' />
+          {/* <Img src={football} alt='' /> */}
           {/* <img
             src={flower}
             alt=''
@@ -155,7 +104,7 @@ const TutorSignIn = () => {
           </Box>
           <Div>
             Dont Have an account?
-            <Span to='/sign-in' style={{ color: "#FCA5A5" }}>
+            <Span to='/tutor-sign-up' style={{ color: "#FCA5A5" }}>
               create an account
             </Span>
           </Div>
