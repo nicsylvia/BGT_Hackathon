@@ -1,9 +1,8 @@
-import React from 'react'
 import styled from 'styled-components'
 import {GoSearch} from "react-icons/go"
-import girl from "../assets/girl-img-study.png"
-import dot from "../assets/circle.svg"
-import rect from "../assets/rect.png"
+import girl from "../../assets/girl-img-study.png"
+import dot from "../../assets/circle.svg"
+import rect from "../../assets/rect.png"
 
 const Home = () => {
   return (

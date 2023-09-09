@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import {BsArrowBarLeft} from "react-icons/bs"
 import {BsArrowBarRight} from "react-icons/bs"
-import img1 from "../assets/partner.png"
-import img2 from "../assets/partner1.png"
-import img3 from "../assets/partner2.png"
-import img4 from "../assets/partner3.jpg"
+import img1 from "../../assets/partner.png"
+import img2 from "../../assets/partner1.png"
+import img3 from "../../assets/partner2.png"
+import img4 from "../../assets/partner3.jpg"
 
 const Seventh = () => {
   return (
