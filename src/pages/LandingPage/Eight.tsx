@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import img1 from "../assets/profile-img4.jpg"
+import img1 from "../../assets/profile-img4.jpg"
 import img2 from "../../assets/profile-img1.jpg"
 import Card4 from './Cards4'
 

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import {BsArrowBarLeft} from "react-icons/bs"
 import {BsArrowBarRight} from "react-icons/bs"
 import Card3 from './Card3'
-import img from "../assets/circle1.png"
-import img2 from "../assets/circle2.png"
+import img from "../../assets/circle1.png"
+import img2 from "../../assets/circle2.png"
 
 const Sixth = () => {
   return (

@@ -263,21 +263,7 @@ const Box2 = styled.div`
   border-radius: 10px;
   margin-top: 40px;
 `;
-const Box3 = styled.div`
-  width: 390px;
-  height: 420px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 40px;
-`;
-const Box4 = styled.div`
-  width: 390px;
-  height: 420px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 40px;
-  visibility: hidden;
-`;
+
 const P = styled.div`
   font-size: 1.125rem;
   width: 100%;

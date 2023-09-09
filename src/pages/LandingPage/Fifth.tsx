@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {BsCheck2Square} from "react-icons/bs"
 import GlobalButton from '../../components/static/Desktop/GlobalButton'
-import img from "../assets/know-about.png"
+import img from "../../assets/know-about.png"
 
 const Fifth = () => {
   return (
