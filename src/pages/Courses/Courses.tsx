@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import search from "../../assets/search-white.svg";
+import CourseCard from "./CourseCard";
 
 const Courses = () => {
   const [showwomen, setShowwomen] = useState<Boolean>(true);
@@ -65,7 +66,7 @@ const Courses = () => {
   };
 
   return (
-    <div>
+    <Divv>
       <Container>
         <Wrapper>
           <P>Courses</P>
@@ -99,12 +100,31 @@ const Courses = () => {
             Backend
           </Div>
         </Category>
+        <Card>
+          <CourseCard />
+        </Card>
       </Wrapper2>
-    </div>
+    </Divv>
   );
 };
 
 export default Courses;
+
+const Divv = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+const Card = styled.div`
+  width: 100%;
+  height: 500px;
+  background-color: red;
+`;
 
 const Container = styled.div`
   width: 100%;
@@ -200,4 +220,5 @@ const Wrapper2 = styled.div`
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: blue;
 `;

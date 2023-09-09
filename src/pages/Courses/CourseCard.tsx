@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import img from "./Assets/man1.png";
 import img2 from "./Assets/green.png";
