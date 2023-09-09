@@ -8,6 +8,9 @@ import Login from "../pages/AuthPage/Login";
 import Leaderboard from "../pages/LeaderBoard/Leaderboard";
 import Game from "../pages/Game/Game";
 import UploadPage from "../pages/AdminUpload/UploadPage";
+import Quiz from "../pages/Game/Quiz";
+import Quiz2 from "../pages/Game/Quiz2";
+import Quiz3 from "../pages/Game/Quiz3";
 
 export const desktopRouter = createBrowserRouter([
   {
@@ -41,6 +44,20 @@ export const desktopRouter = createBrowserRouter([
       {
         path: "/game",
         element: <Game />,
+        children: [
+          {
+            index: true,
+            element: <Quiz />,
+          },
+          {
+            path: "/game/next1",
+            element: <Quiz2 />,
+          },
+          {
+            path: "/game/next2",
+            element: <Quiz3 />,
+          },
+        ],
       },
       {
         path: "/upload",
