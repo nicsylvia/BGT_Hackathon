@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const LeaderBoard = () => {
@@ -183,7 +184,9 @@ const LeaderBoard = () => {
           </table>
         </Table>
         <BtnHold>
-          <Button>View More</Button>
+          <Link to="/">
+            <Button>Visit Home</Button>
+          </Link>
         </BtnHold>
       </Wrapper>
     </Container>

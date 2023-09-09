@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const UploadPage = () => {
@@ -23,9 +24,11 @@ const UploadPage = () => {
             <option value="music">HTML/CSS</option>
             <option value="romance">UI/UX</option>
           </Select>
-          <Button2 cp="pointer" bg="black">
-            Submit
-          </Button2>
+          <Link to="/courses">
+            <Button2 cp="pointer" bg="black">
+              Submit
+            </Button2>
+          </Link>
           :
         </Card>
       </Wrapper>
