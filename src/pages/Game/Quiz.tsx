@@ -7,22 +7,22 @@ const Quiz = () => {
         <CardHold>
           {/* <Content> */}
           <HeaderText>Question 1</HeaderText>
-          <Question>What does CSS stand for?</Question>
+          <Question>What is HTML?</Question>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>Hyper text markup language</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>Hyper text makeup language</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>Hypo text markup language</Text>
           </InputHold>
           <InputHold>
             <Input type="radio" />
-            <Text>Central Style Sheets</Text>
+            <Text>Hyper test markup language</Text>
           </InputHold>
           {/* </Content> */}
         </CardHold>
