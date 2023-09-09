@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import search from "../../assets/search-white.svg";
-import MainCourse from "./MainCourse";
 
 const Courses = () => {
   const [showwomen, setShowwomen] = useState<Boolean>(true);
