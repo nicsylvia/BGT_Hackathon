@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 import football from "../../assets/remove2.png";
 import { BsPerson } from "react-icons/bs";
@@ -14,7 +13,6 @@ import { NavLink } from "react-router-dom";
 // import { useMutation } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 // import { createUser } from "../API/Endpoint";
-
 
 const Login = () => {
   //   const navigate = useNavigate();
@@ -97,7 +95,7 @@ const Login = () => {
             Challenge yourself with reading goals, track your progress, and earn
             badges as you conquer your literary quests.😎
           </p>
-          <Img src={football} alt='' />
+          {/* <Img src={football} alt='' /> */}
           {/* <img
             src={flower}
             alt=''
