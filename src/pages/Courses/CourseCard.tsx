@@ -51,7 +51,6 @@ const CourseCard = () => {
                 <AiOutlineArrowRight />
               </Icon>
             </View>
-            <New>Coming Soon</New>
           </Down2>
         </Box>
         <Box>
@@ -62,7 +61,7 @@ const CourseCard = () => {
             <Data>
               I am interested in
               <br />
-              <span>Products</span>
+              <span>Marketing</span>
             </Data>
             <View>
               View Courses
@@ -106,7 +105,6 @@ const CourseCard = () => {
                 <AiOutlineArrowRight />
               </Icon>
             </View>
-            <New>Coming Soon</New>
           </Down5>
         </Box2>
         <Box2>
@@ -117,7 +115,7 @@ const CourseCard = () => {
             <Data>
               I am interested in
               <br />
-              <span>Cloud Development</span>
+              <span>Backend Development</span>
             </Data>
             <View>
               View Courses
@@ -250,40 +248,25 @@ const Up = styled.div`
   }
 `;
 const Box = styled.div`
-  width: 390px;
+  width: 30%;
   height: 420px;
   overflow: hidden;
   border-radius: 10px;
   margin: 5px;
 `;
 const Box2 = styled.div`
-  width: 390px;
+  width: 30%;
   height: 420px;
   overflow: hidden;
   border-radius: 10px;
   margin-top: 40px;
-`;
-const Box3 = styled.div`
-  width: 390px;
-  height: 420px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 40px;
-`;
-const Box4 = styled.div`
-  width: 390px;
-  height: 420px;
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 40px;
-  visibility: hidden;
 `;
 const P = styled.div`
   font-size: 1.125rem;
   width: 100%;
   line-height: 1.75rem;
   text-align: center;
-  color: #000000;
+  color: #33333d;
   margin-top: -8px;
 `;
 const Text = styled.h2`
@@ -291,10 +274,10 @@ const Text = styled.h2`
   text-align: center;
   line-height: 1.25;
   font-size: 3rem;
-  color: #050794;
+  color: #fca5a5;
 `;
 const Wrapper = styled.div`
-  width: 91%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 80px;
