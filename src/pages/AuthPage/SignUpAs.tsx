@@ -1,7 +1,7 @@
 import { AiFillPlayCircle } from "react-icons/ai";
 import { styled } from "styled-components";
 import { Link, NavLink } from "react-router-dom";
-import img from "../../assets/logo1.png";
+// import img from "../../assets/logo1.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import GlobalButton2 from "../../components/Global/GlobalButton2";
 
@@ -18,22 +18,20 @@ const SignInAs = () => {
           <Descriptions className="hove">Go Back</Descriptions>
         </Icon>
         <NavLink to={"/"}>
-          <Logo>
-            <Pic src={img} />
-          </Logo>
+          <Logo>SheCodes</Logo>
         </NavLink>
         <Text>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eaque
           quasi ratione, rem sint labore dolore perferendis?
         </Text>
 
-        <NavLink to="/newsignin">
+        <NavLink to="/tutor-sign-up">
           <Button bg="#f15a22" border="0" color="white">
             Sign Up as Tutor
           </Button>
         </NavLink>
 
-        <Link style={{ textDecoration: "none" }} to={"/StaffLogin"}>
+        <Link style={{ textDecoration: "none" }} to={"/sign-up"}>
           <Button bg="transparent" border="1px solid #f15a22" color="#f15a22">
             Sign Up as Learner
           </Button>

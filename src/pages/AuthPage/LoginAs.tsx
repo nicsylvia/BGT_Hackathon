@@ -1,11 +1,11 @@
 import { AiFillPlayCircle } from "react-icons/ai";
 import { styled } from "styled-components";
 import { Link, NavLink } from "react-router-dom";
-import img from "../../assets/logo1.png";
+// import img from "../../assets/logo1.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import GlobalButton2 from "../../components/Global/GlobalButton2";
 
-const SignInAs = () => {
+const LoginAS = () => {
   const navigateBack = () => {
     window.history.back();
   };
@@ -18,22 +18,20 @@ const SignInAs = () => {
           <Descriptions className="hove">Go Back</Descriptions>
         </Icon>
         <NavLink to={"/"}>
-          <Logo>
-            <Pic src={img} />
-          </Logo>
+          <Logo>SheCodes</Logo>
         </NavLink>
         <Text>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eaque
           quasi ratione, rem sint labore dolore perferendis?
         </Text>
 
-        <NavLink to="/newsignin">
+        <NavLink to="/login">
           <Button bg="#f15a22" border="0" color="white">
             Login as Learner
           </Button>
         </NavLink>
 
-        <Link style={{ textDecoration: "none" }} to={"/StaffLogin"}>
+        <Link style={{ textDecoration: "none" }} to={"/tutor-login"}>
           <Button bg="transparent" border="1px solid #f15a22" color="#f15a22">
             Login as Tutor
           </Button>
@@ -53,7 +51,7 @@ const SignInAs = () => {
   );
 };
 
-export default SignInAs;
+export default LoginAS;
 const Descriptions = styled.div`
   position: absolute;
   font-size: 12px;
