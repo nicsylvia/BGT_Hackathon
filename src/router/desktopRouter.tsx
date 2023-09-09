@@ -11,6 +11,8 @@ import UploadPage from "../pages/AdminUpload/UploadPage";
 import Quiz from "../pages/Game/Quiz";
 import Quiz2 from "../pages/Game/Quiz2";
 import Quiz3 from "../pages/Game/Quiz3";
+import TutorSignUp from "../pages/AuthPage/TutorSignUp";
+import TutorSignIn from "../pages/AuthPage/TutorSignIn";
 
 export const desktopRouter = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ export const desktopRouter = createBrowserRouter([
         element: <Login />,
       },
 
+      {
+        path: "/tutor-sign-up",
+        element: <TutorSignUp />,
+      },
+      {
+        path: "/tutor-login",
+        element: <TutorSignIn />,
+      },
       {
         path: "/leaderboard",
         element: <Leaderboard />,

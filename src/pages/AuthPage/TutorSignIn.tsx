@@ -89,7 +89,7 @@ const TutorSignIn = () => {
             <h4>SHECODES</h4>
           </NavLink>
           <H1>
-            Welcome <br /> Tech Pearl
+            Welcome <br /> Tutor Sylvia
           </H1>
           <p>
             Challenge yourself with reading goals, track your progress, and earn

@@ -89,7 +89,7 @@ const TutorSignUp = () => {
             <h4>SHECODES</h4>
           </NavLink>
           <H1>
-            Let’s Get <br /> You Started
+            Welcome <br /> Tutors
           </H1>
           <p>
             Challenge yourself with reading goals, track your progress, and earn
