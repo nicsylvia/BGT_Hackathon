@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import football from "../../assets/remove2.png";
+
 import { BsPerson } from "react-icons/bs";
 import { IoMailOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
@@ -95,7 +95,7 @@ const TutorSignUp = () => {
             Challenge yourself with reading goals, track your progress, and earn
             badges as you conquer your literary quests.😎
           </p>
-          <Img src={football} alt='' />
+          {/* <Img src={football} alt='' /> */}
           {/* <img
             src={flower}
             alt=''
@@ -177,7 +177,7 @@ const TutorSignUp = () => {
           </Box>
           <Div>
             Already have an account{" "}
-            <Span to='/login' style={{ color: "#FCA5A5" }}>
+            <Span to='/tutor-login' style={{ color: "#FCA5A5" }}>
               Login here
             </Span>
           </Div>
