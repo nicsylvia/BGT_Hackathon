@@ -25,7 +25,7 @@ const CourseCard = () => {
             <Data>
               I am interested in
               <br />
-              <span>Data</span> and <span>numbers</span>
+              <span>Design</span> and <span>UI/UX</span>
             </Data>
             <View>
               View Courses
@@ -79,7 +79,7 @@ const CourseCard = () => {
             <Data>
               I am interested in
               <br />
-              <span>Business Analysis</span>
+              <span>Development</span>
             </Data>
             <View>
               View Courses
@@ -97,7 +97,7 @@ const CourseCard = () => {
             <Data>
               I am interested in
               <br />
-              <span>Programming</span>
+              <span>Frontend Development</span>
             </Data>
             <View>
               View Courses
@@ -132,20 +132,6 @@ const CourseCard = () => {
 
 export default CourseCard;
 
-const New = styled.div`
-  width: 240px;
-  height: 30px;
-  background-color: #fbaf1b;
-  cursor: pointer;
-  position: absolute;
-  align-items: center;
-  display: flex;
-  padding-right: 20px;
-  justify-content: flex-end;
-  border-radius: 50px;
-  bottom: 400px;
-  right: 290px;
-`;
 const Icon = styled.div`
   margin-left: 25px;
   margin-top: 5px;
@@ -262,12 +248,12 @@ const Box2 = styled.div`
   margin-top: 40px;
 `;
 const P = styled.div`
-  font-size: 1.125rem;
+  font-size: 20px;
   width: 100%;
   line-height: 1.75rem;
   text-align: center;
   color: #33333d;
-  margin-top: -8px;
+  margin-top: 8px;
 `;
 const Text = styled.h2`
   font-weight: 600;
@@ -281,6 +267,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-top: 80px;
+
   justify-content: space-between;
 `;
 
@@ -289,6 +276,6 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 140px;
+  margin-top: 50px;
   padding-bottom: 90px;
 `;

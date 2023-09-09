@@ -112,7 +112,6 @@ export default Courses;
 
 const Divv = styled.div`
   width: 100%;
-  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,8 +120,6 @@ const Divv = styled.div`
 
 const Card = styled.div`
   width: 100%;
-
-  background-color: red;
 `;
 
 const Container = styled.div`
@@ -156,7 +153,6 @@ const Input = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #e65750; */
   input {
     width: 80%;
     height: 70%;
@@ -202,7 +198,7 @@ const Category = styled.div`
   width: 800px;
   height: 50px;
   padding: 5px 0px 5px 0px;
-  background-color: #fff;
+  background-color: #fca5a5;
   border-radius: 40px;
   color: #0f172a;
   margin-top: 20px;
@@ -218,5 +214,4 @@ const Wrapper2 = styled.div`
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: blue;
 `;
